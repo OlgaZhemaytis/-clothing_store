@@ -1,0 +1,120 @@
+.slaiderbig{
+	display: block;
+	width: 834px;
+	height: 424px;
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.03);
+	background-color: #ffffff;
+	&__wrapper{
+		display: block;
+		width: 834px;
+		height: 40px;
+	}
+	&__itembox{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 23px 23px 5px 32px;
+	}
+	&__list{
+		list-style-type: none;
+		width: 255px;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 13px;
+		margin-left: 180px;
+	}
+	&__listitem{
+		list-style: none;
+	}
+	&__link{
+		text-decoration: none;	
+		color: #3d3d3d;
+		font-size: 15px;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 50px;
+		text-align: left;
+		 &:hover{
+			text-decoration: none;
+			color: #3d3d3d;
+		 }
+	}
+	hr{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		background-color:  #636363;
+		height: 1px;
+		border: none;
+		opacity: 0.6;		
+	}
+	&__content{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 27px 28px 36px 28px;
+		width: 744px;
+		height: 82px;
+		margin-top: 35px;
+		
+	}
+	&__contentbot{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0px 28px 36px 28px;
+		width: 744px;
+		height: 82px;
+		margin-top: 35px;
+
+	}
+	&__item{
+		display: flex;
+		justify-content: space-between;
+		width: 228px;
+		height: 82px;
+		text-decoration: none;
+		
+	}
+	&__img{
+		display: block;
+		margin: 0;
+		float: left;
+		width: 87px;
+		height: 82px;
+	}
+	&__box{
+		width: 121px;
+		height: 67px;
+	}
+	&__subtitle{
+		color: #3d3d3d;
+		font-family: Lato;
+		font-size: 15px;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: normal;
+		// line-height: 50px;
+		text-align: left;
+		margin-top: 10px;
+	}
+	&__descr{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 5px;
+	}
+	&__prise{
+		color: #636363;
+		font-weight: 400;
+		font-size: 15px;
+		text-decoration: line-through;
+	}
+	&__newprise{
+		font-weight: 700;
+		font-size: 15px;
+		color: #000000;
+	}
+	
+}

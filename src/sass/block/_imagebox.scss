@@ -1,0 +1,89 @@
+.imagebox{
+	width: 834px;
+	height:226px;
+	margin-top: 31px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__item{
+		width: 396px;
+		height: 100%;
+		position: relative;	
+		overflow: hidden;
+		box-shadow: 0 0 7px rgba(0, 0, 0, 0.09);	
+	}
+	&__img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		&_left{
+			top: 0;
+			left: 44%;
+		}
+	}
+	&__text{
+		position: absolute;
+		top: 0;
+		right: -47%;
+		border-bottom: 226px solid white;
+		border-left: 82px solid transparent;
+		border-right: 50px solid transparent;
+		height: 0;
+		width: 300px;
+		&_left{
+			right: 34%;
+			border-left: 50px solid transparent;
+			border-right: 82px solid transparent;
+
+		}
+	}
+	&__year{
+		margin-top: 45px;
+		color:#a7a7a7;
+		font-size: 45px;
+		font-weight: 900;
+		line-height: 45px;
+		letter-spacing: -3px;
+		margin-left: 21px;
+		span{
+			font-size: 50px;
+		}
+		&_left{
+			margin-left: 150px;
+		}
+	}
+	&__descr{
+		font-size: 18px;
+		font-weight: bold;
+		text-transform: uppercase;
+		line-height: 20px;
+		text-align:left;
+		&_left{
+			text-align:right;
+			margin-right: 15px;
+		}
+	}
+	&__link{
+		display: block;
+		margin-top: 22px;
+		margin-left: 55px;
+		text-transform: uppercase;
+		line-height: 20px;
+		font-weight: bold;
+		color:#0f8ce9;
+		&_left{
+			margin-left: 151px;
+		}
+	}
+	&__sub{
+		display: block;
+		color: #cacaca;
+		margin-top: 20px;
+		margin-left: -32px;
+		&_left{
+			text-align: right;
+			margin-right: -15px;
+		}
+	}
+
+}

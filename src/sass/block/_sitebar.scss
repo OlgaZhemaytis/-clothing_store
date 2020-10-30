@@ -1,0 +1,111 @@
+.sitebar{
+
+	&__item{
+		display: block;
+		background-color: white;
+		margin: 0;	
+		margin-bottom: 34px;	
+		width: 297px;
+		height: 400px;
+		box-shadow: 0 0 7px rgba(0, 0, 0, 0.03);
+		text-decoration: none;
+		&_mini{
+			width: 297px;
+			height: 267px;
+			box-shadow: 0 0 7px rgba(0, 0, 0, 0.03);
+			background-color: #ffffff;
+		}
+	}
+	&__recimg{
+		display: block;
+		margin: 0;	
+		margin-top: 34px;
+
+	}
+	&__wrap{
+		display: block;
+	}
+	&__itembox{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 270px;
+		margin-left: 10px;
+				
+	}
+	hr{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		background-color:  #636363;
+		height: 1px;
+		border: none;
+		opacity: 0.6;	
+	}
+	&__cont{
+		display: block;
+		margin: 0 auto;
+		width: 252px;
+		height: 287px;
+		margin-top: 10px;
+	}
+	&__img{
+		display: block;
+		margin: 0 auto;
+	}
+	&__subtitle {
+		color: #3d3d3d;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 20px;
+		text-align: center;
+		&_mini{
+			margin-top: 25px;
+		}
+	}
+	&__descr{
+		display: flex;
+		justify-content: space-between;
+		width: 119px;
+		margin: 0 auto;
+		margin-top: 5px;
+	}
+	&__prise{
+		color: #636363;
+		font-weight: 400;
+		text-decoration: line-through;
+	}
+	&__newprise{
+		font-weight: 700;
+		font-size: 15px;
+		color: #000000;
+	}
+	&__imgst{
+		display: block;
+		width: 86px;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+	input{
+		display: block;
+		margin: 0 auto;
+		width: 250px;
+		height: 45px;
+		background-color: #f3f3f3;
+		border: none;
+		margin-top: 10px;
+		border-radius: 5px;
+	}
+	.redbutton{
+		display: block;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+	&__nfg{
+		width: 252px;
+		height: 153px;
+		
+	}
+
+}
+

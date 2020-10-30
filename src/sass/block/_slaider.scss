@@ -1,0 +1,103 @@
+.slaider{
+	display: block;
+	width: 834px;
+	height: 424px;
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.03);
+	background-color: #ffffff;
+	&__wrapper{
+		display: block;
+		width: 834px;
+		height: 40px;
+	}
+	&__itembox{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 23px 23px 5px 32px;
+	}
+	&__list{
+		list-style-type: none;
+		width: 255px;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 13px;
+		margin-left: 180px;
+	}
+	&__listitem{
+		list-style: none;
+	}
+	&__link{
+		text-decoration: none;	
+		color: #3d3d3d;
+		font-size: 15px;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 50px;
+		text-align: left;
+		 &:hover{
+			text-decoration: none;
+			color: #3d3d3d;
+		 }
+	}
+	hr{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		background-color:  #636363;
+		height: 1px;
+		border: none;
+		opacity: 0.6;	
+	}
+	&__content{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 27px 28px 36px 28px;
+	}
+	&__item{
+		display: block;
+		width: 177px;
+		height: 285px;
+		text-decoration: none;
+		
+	}
+	&__img{
+		display: block;
+		margin: 0 auto;
+	}
+	&__subtitle{
+		display: block;
+		margin: 0 auto;		
+		margin-top: 8px;
+		color: #3d3d3d;
+		font-size: 15px;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: normal;
+		text-align: center;
+	}
+	&__descr{
+		display: flex;
+		justify-content: space-between;
+		width: 119px;
+		margin: 0 auto;
+		margin-top: 5px;
+	}
+	&__prise{
+		color: #636363;
+		font-weight: 400;
+		text-decoration: line-through;
+	}
+	&__newprise{
+		font-weight: 700;
+		font-size: 15px;
+		color: #000000;
+	}
+	&__imgst{
+		display: block;
+		width: 86px;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+}

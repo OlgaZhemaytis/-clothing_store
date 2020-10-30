@@ -1,0 +1,175 @@
+.footer{
+	height: 357px;
+	background-color: #222222;
+	padding-top: 85px;
+	&__wrapper{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}	
+	&__adressbox{
+		display: block;
+		margin: 0;
+		width: 264px;
+		height: 253px;		
+	}
+	&__logoimg{
+		display: block;
+		margin: 0 auto;
+		width: 178px;
+		height: 62px;
+		float: left;
+	}
+	&__descr{
+		display: block;
+		margin: 0;
+		margin-top: 82px;
+		color: #b6b6b6;		
+		font-size: 14px;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 24px;
+		text-align: left;
+		&_op{
+			width: 231px;
+			height: 44px;
+			margin-top: 0;
+		}
+	}
+	&__box{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;		
+		width: 255px;
+		height: 74px;
+		margin-top: 22px;
+	}
+	&__adres{
+		display: block;
+		margin: 0;
+		color: #b6b6b6;
+		width: 230px;
+		font-family: "Times New Roman PSMT";
+		font-size: 13px;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 30px;
+		text-align: left;
+	}
+	&__icon{
+		display: flex;
+		margin: 0;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 74px;
+		div{			
+			color: #f10e34;
+			font-size: 16px;
+			&::nth-child(2){
+				margin-top: 15px;
+			}
+		}
+	}
+	&__inform{
+		display: block;
+		margin: 0;
+		width: 126px;
+		height: 253px;		
+	}
+	&__title{
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 700;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 47px;
+		text-align: left;
+		text-transform: uppercase;
+		&_soc{
+			text-align: center;
+		}
+	}
+	&__list{
+		list-style-type: none;
+	}
+	&__item{
+		text-decoration: none;
+	}
+	&__link{
+		text-decoration: none;
+		color: #b6b6b6;
+		font-size: 14px;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 30px;
+		text-align: left;
+		&_soc{
+			margin-left: 7px;
+		}
+	}
+	&__social{
+		display: block;
+		margin: 0;
+		width: 274px;
+		height: 253px;
+	}
+	&__wrap{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;	
+		width: 274px;
+		height: 104px;
+	}
+	&__tab{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__h{
+			margin-top: 11px;
+			color: #f10e34;
+			&_big{
+				display: block;
+				margin: 0;
+				margin-left: 5px;
+				font-size: 50px;
+			}
+		}
+	
+	&__text{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column;		
+	}
+	&__open{
+		display: block;
+		margin: 0;
+		width: 262px;
+		height: 259px;		
+	}
+	&__descrbox{
+		width: 261px;
+		height: 44px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;		
+	}
+
+	&__iconbox{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		&_x{
+			width: 193px;		
+		}
+	}
+	&__clock{
+		display: block;
+		margin: 0;
+		color: #f10e34;
+	}
+}

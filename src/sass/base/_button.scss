@@ -1,0 +1,53 @@
+.btn{
+	width: 142px;
+	height: 42px;
+	margin: 0 auto;
+	border: 2px solid #000000;
+	background-color: transparent;
+	color: #000000;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 40.93px;
+	text-transform: uppercase;
+	cursor: pointer;
+	&__minired{	
+		width: 20px;
+		height: 22px;	
+		border: none;
+		background-color: transparent;
+		color: #f22f49;
+		font-size: 20px;
+		cursor: pointer;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+	&__minigray{
+		width: 20px;
+		height: 22px;
+		border: none;
+		background-color: transparent;
+		color: gray;
+		font-size: 20px;
+		cursor: pointer;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}
+.redbutton{
+	width: 133px;
+	height: 46px;
+	background-color: #f22f49;
+	border-radius: 33px;
+	border: none;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 40px;
+	text-align: left;
+	text-transform: uppercase;
+	text-align: center;
+}

@@ -1,0 +1,52 @@
+.laptop{
+	position: relative;
+	width: 834px;
+	height: 180px;
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.03);
+	background-color: #ffffff;
+	margin-top: 43px;
+	&__img{
+		display: block;
+		position: absolute;
+		top: 10%;
+		left: 0;
+		z-index: 1;
+	}
+	&__text{
+		display: block;
+		width: 360px;
+		height: 114px;
+		position: absolute;
+		top: 10%;
+		left: 56%;
+		z-index: 3;
+	}
+	&__bluetitle{
+		color: #0f8ce9;
+		font-size: 22px;
+		font-weight: 900;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: normal;
+		text-align: left;
+		text-transform: uppercase;
+		font-style: normal;
+	}
+	&__title{
+		font-weight: bold;
+		line-height: 22px;
+		display: block;
+		margin: 0;		
+		color: #000000;
+		font-weight: bold;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 30px;
+		text-align: left;
+		text-transform: uppercase;	
+	}
+}
+.redbutton{
+	margin-top: 25px;
+	margin-left: 15px;
+}

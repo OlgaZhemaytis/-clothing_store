@@ -1,0 +1,36 @@
+.maincontent{
+	width: 100%;
+	padding-top: 39px;
+	
+	&__wrapper{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		
+	}
+}
+.sitebar{
+	display: block;
+	width: 305px;
+	margin: 0;
+	margin-top: 10px;
+}
+.allin{
+	display: block;
+	margin: 0;
+	width: 834px;
+	margin-top: 10px;
+}
+.title{
+	display: block;
+	margin: 0;
+	
+	color: #000000;
+	font-size: 22px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 73.1px;
+	text-align: left;
+	text-transform: uppercase;
+}

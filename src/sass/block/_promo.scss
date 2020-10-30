@@ -1,0 +1,124 @@
+.promo{
+	margin: 0;
+	padding: 0;
+	
+
+	&__wrapper{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__listing{
+		display: block;
+		margin: 0;
+		width: 297px;
+		height: 466px;
+		box-shadow: 0 0 7px rgba(0, 0, 0, 0.03);
+		background-color: #ffffff;
+		margin-top: 31px;
+		border-top: 12px solid white;
+	}
+	&__list{
+		list-style-type: none;
+		list-style: none;		
+		margin-top: 10px;
+		margin-left: 57px;
+		line-height: 47px;
+	}
+	&__it{
+		list-style: none;
+		
+	}
+	&__link{
+		
+		text-decoration: none;
+		width: 122px;
+		height: 458px;
+		color: #222222;
+		font-size: 21px;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 50px;
+		text-align: left;
+		&::before{
+			position: absolute;
+			top: 5px;
+			left: 5px;
+			display: block;
+			content: '\f35a';
+			font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+			font-weight: 400;
+			width: 100px;
+			height: 100px;
+			}
+		
+	}
+
+
+
+	&__box{
+		display: block;
+		margin: 0;
+		background: url('/img/promologo.jpg') center (center / cover) no-repeat ;
+		width: 834px;
+		height: 454px;
+	}
+	&__title{
+		text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.13);
+		font-size: 38px;
+		font-weight: 900;
+		text-transform: uppercase;
+		color: #303a7a;
+		margin-top: 92px;
+		margin-left: 73px;
+	}
+	&__titlebig{
+		text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.13);
+		color: #ffffff;
+		font-size: 60px;
+		font-weight: bold;
+		line-height: 58.01px;
+		text-transform: uppercase;
+		margin-left: 32px;
+	}
+	&__titlemini{
+		text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.13);
+		color: #ffffff;
+		text-transform: uppercase;
+		font-size: 22px;
+		line-height: 34px;
+		font-weight: bold;
+		margin-left: 148px;
+	}
+	.btn{
+		margin-top: 50px;
+		margin-left: 172px;
+	}
+	&__boxing{
+		height: 79px;
+		background-color: #f10e34;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 70px;
+	}
+	&__item{
+		color: #ffffff;		
+		font-size: 15px;
+		font-weight: 400;
+		text-align: center;
+		&:nth-child(1){
+			margin-left: 50px;	
+		}
+		&:nth-child(3){
+			margin-right: 52px;
+		}
+	}
+	&__descr{
+		font-weight: bold;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+	}
+
+}
